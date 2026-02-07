@@ -14,7 +14,7 @@ const translations: Translations = {
   'nav.contact': { es: 'Contacto', en: 'Contact' },
 
   // Hero
-  'hero.title': { es: 'Cuidado y Mantenimiento Profesional de Embarcaciones', en: 'Professional Yacht Care & Maintenance' },
+  'hero.title': { es: 'Mantenimiento y Limpieza Profesional de Embarcaciones', en: 'Professional Yacht Maintenance & Cleaning' },
   'hero.subtitle': { es: 'Años de experiencia en el sector marítimo. Empresa seria y responsable dedicada al mantenimiento integral de su embarcación.', en: 'Years of experience in the maritime sector. A serious and responsible company dedicated to the comprehensive maintenance of your vessel.' },
   'hero.cta': { es: 'Solicitar Presupuesto', en: 'Request a Quote' },
   'hero.services': { es: 'Ver Servicios', en: 'View Services' },

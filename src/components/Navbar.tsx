@@ -1,6 +1,7 @@
 import { useLanguage } from '@/contexts/LanguageContext';
-import { Anchor, Menu, X } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import { useState } from 'react';
+import logo from '@/assets/logo.png';
 
 const Navbar = () => {
   const { language, setLanguage, t } = useLanguage();
@@ -18,10 +19,7 @@ const Navbar = () => {
       <div className="container mx-auto px-4 lg:px-8">
         <div className="flex items-center justify-between h-16 lg:h-20">
           <div className="flex items-center gap-2">
-            <Anchor className="w-6 h-6 text-gold" />
-            <span className="font-display text-lg lg:text-xl text-primary-foreground font-semibold tracking-wide">
-              YachtCare
-            </span>
+            <img src={logo} alt="YachtCare Logo" className="h-10 lg:h-12 w-auto" />
           </div>
 
           {/* Desktop nav */}
